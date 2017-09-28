@@ -7,8 +7,8 @@
     <ProjectGuid>{35806055-27FB-4B08-8329-DDB6FDC5332E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HrDriveAutomation</RootNamespace>
-    <AssemblyName>HrDriveAutomation</AssemblyName>
+    <RootNamespace>CSharpSpecflow</RootNamespace>
+    <AssemblyName>CSharpSpecflow</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
