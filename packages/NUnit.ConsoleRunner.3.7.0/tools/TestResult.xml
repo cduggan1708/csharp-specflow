@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="9" engine-version="3.7.0.0" clr-version="4.0.30319.42000" start-time="2017-09-26 21:20:07Z" end-time="2017-09-26 21:21:09Z" duration="62.437225">
+  <command-line><![CDATA[nunit3-console.exe  ..\..\..\HrDriveAutomation\bin\Debug\HrDriveAutomation.dll --params=remoteDriverUrl=http://127.0.0.1:4723/wd/hub;emulatorVersion=7.1.1;apkPath=C:\\Users\\cduggan\\Downloads\\Calculator_2.0.apk]]></command-line>
+  <test-suite type="Assembly" id="0-1010" name="HrDriveAutomation.dll" fullname="C:\Source\HrDriveAutomation\HrDriveAutomation\bin\Debug\HrDriveAutomation.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2017-09-26 21:20:07Z" end-time="2017-09-26 21:21:09Z" duration="61.692174" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+    <environment framework-version="3.8.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT" cwd="C:\Source\HrDriveAutomation\packages\NUnit.ConsoleRunner.3.7.0\tools" machine-name="IVLYN" user="cduggan" user-domain="ivlyn" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Source\HrDriveAutomation\packages\NUnit.ConsoleRunner.3.7.0\tools" />
+      <setting name="TestParametersDictionary" value="[remoteDriverUrl, http://127.0.0.1:4723/wd/hub], [emulatorVersion, 7.1.1], [apkPath, C:\\Users\\cduggan\\Downloads\\Calculator_2.0.apk]">
+        <item key="remoteDriverUrl" value="http://127.0.0.1:4723/wd/hub" />
+        <item key="emulatorVersion" value="7.1.1" />
+        <item key="apkPath" value="C:\\Users\\cduggan\\Downloads\\Calculator_2.0.apk" />
+      </setting>
+      <setting name="TestParameters" value="remoteDriverUrl=http://127.0.0.1:4723/wd/hub;emulatorVersion=7.1.1;apkPath=C:\\Users\\cduggan\\Downloads\\Calculator_2.0.apk" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11592" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1011" name="HrDriveAutomation" fullname="HrDriveAutomation" runstate="Runnable" testcasecount="6" result="Passed" start-time="2017-09-26 21:20:07Z" end-time="2017-09-26 21:21:09Z" duration="61.663689" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+      <test-suite type="TestSuite" id="0-1012" name="Features" fullname="HrDriveAutomation.Features" runstate="Runnable" testcasecount="6" result="Passed" start-time="2017-09-26 21:20:07Z" end-time="2017-09-26 21:21:09Z" duration="61.660642" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+        <test-suite type="TestFixture" id="0-1000" name="SampleFeatureForMobileApplicationsFeature" fullname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature" classname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-09-26 21:20:07Z" end-time="2017-09-26 21:20:29Z" duration="21.273971" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+          <properties>
+            <property name="Description" value="Sample Feature for mobile applications" />
+            <property name="Category" value="mobile" />
+          </properties>
+          <output><![CDATA[-> Using app.config
+]]></output>
+          <test-suite type="ParameterizedMethod" id="0-1003" name="MobileTestScenario" fullname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature.MobileTestScenario" classname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-09-26 21:20:18Z" end-time="2017-09-26 21:20:26Z" duration="8.291749" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="Description" value="Mobile Test Scenario" />
+            </properties>
+            <test-case id="0-1001" name="MobileTestScenario(&quot;6&quot;,&quot;5&quot;,&quot;30&quot;,null)" fullname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature.MobileTestScenario(&quot;6&quot;,&quot;5&quot;,&quot;30&quot;,null)" methodname="MobileTestScenario" classname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature" runstate="Runnable" seed="1169975720" result="Passed" start-time="2017-09-26 21:20:18Z" end-time="2017-09-26 21:20:23Z" duration="4.431966" asserts="1">
+              <output><![CDATA[Given I am a user on the Calculator app
+-> done: GenericStepDefinitions.GivenIAmAUserOnTheCalculatorApp() (0.0s)
+When I click "6" by "id" with selector "digit6"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("6", "id", "digit6") (0.5s)
+And I click "x" by "id" with selector "mul"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("x", "id", "mul") (0.8s)
+And I click "5" by "id" with selector "digit5"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("5", "id", "digit5") (0.7s)
+And I click "=" by "id" with selector "equal"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("=", "id", "equal") (0.7s)
+Then I should see "results" with text "30" by "xpath" with selector "//android.widget.EditText[1]"
+-> done: GenericStepDefinitions.ThenIShouldSeeElementWithTextByWithSelector("results", "30", "xpath", "//android.widget....") (0.8s)
+]]></output>
+            </test-case>
+            <test-case id="0-1002" name="MobileTestScenario(&quot;7&quot;,&quot;7&quot;,&quot;49&quot;,null)" fullname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature.MobileTestScenario(&quot;7&quot;,&quot;7&quot;,&quot;49&quot;,null)" methodname="MobileTestScenario" classname="HrDriveAutomation.Features.SampleFeatureForMobileApplicationsFeature" runstate="Runnable" seed="587491505" result="Passed" start-time="2017-09-26 21:20:23Z" end-time="2017-09-26 21:20:26Z" duration="3.846598" asserts="1">
+              <output><![CDATA[Given I am a user on the Calculator app
+-> done: GenericStepDefinitions.GivenIAmAUserOnTheCalculatorApp() (0.0s)
+When I click "7" by "id" with selector "digit7"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("7", "id", "digit7") (0.4s)
+And I click "x" by "id" with selector "mul"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("x", "id", "mul") (1.0s)
+And I click "7" by "id" with selector "digit7"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("7", "id", "digit7") (0.9s)
+And I click "=" by "id" with selector "equal"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("=", "id", "equal") (0.8s)
+Then I should see "results" with text "49" by "xpath" with selector "//android.widget.EditText[1]"
+-> done: GenericStepDefinitions.ThenIShouldSeeElementWithTextByWithSelector("results", "49", "xpath", "//android.widget....") (0.6s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1004" name="SampleFeatureForWebApplicationsFeature" fullname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" classname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" runstate="Runnable" testcasecount="4" result="Passed" start-time="2017-09-26 21:20:29Z" end-time="2017-09-26 21:21:09Z" duration="40.378504" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <properties>
+            <property name="Description" value="Sample Feature for web applications" />
+            <property name="Category" value="web" />
+          </properties>
+          <test-case id="0-1009" name="CalculatorScenario" fullname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature.CalculatorScenario" methodname="CalculatorScenario" classname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" runstate="Runnable" seed="623488407" result="Passed" start-time="2017-09-26 21:20:48Z" end-time="2017-09-26 21:20:58Z" duration="9.745009" asserts="2">
+            <properties>
+              <property name="Description" value="Calculator scenario" />
+            </properties>
+            <output><![CDATA[Given I am a user on Mortgage Calculator site
+-> done: GenericStepDefinitions.GivenIAmAUserOnMortgageCalculatorSite() (6.1s)
+When I enter text "250000" in the text field "Mortgage Amount" by "id" with selector "amount"
+-> done: GenericStepDefinitions.WhenIEnterTextInTheTextFieldByWithSelector("250000", "Mortgage Amount", "id", "amount") (0.6s)
+And I enter text "30" in the text field "Amortization Period" by "id" with selector "amortizationYears"
+-> done: GenericStepDefinitions.WhenIEnterTextInTheTextFieldByWithSelector("30", "Amortization Period", "id", "amortizationYears") (0.1s)
+And I enter text "30" in the text field "Interest Terms" by "id" with selector "interestTermYears"
+-> done: GenericStepDefinitions.WhenIEnterTextInTheTextFieldByWithSelector("30", "Interest Terms", "id", "interestTermYears") (0.1s)
+And I select option "Fixed" from dropdown "Interest Type" by "id" with selector "interestType"
+-> done: GenericStepDefinitions.WhenISelectOptionFromDropdownByWithSelector("Fixed", "Interest Type", "id", "interestType") (0.3s)
+And I enter text "4.38" in the text field "Interest Rate" by "id" with selector "rate"
+-> done: GenericStepDefinitions.WhenIEnterTextInTheTextFieldByWithSelector("4.38", "Interest Rate", "id", "rate") (0.2s)
+And I select option "10" from dropdown "Start Date" by "id" with selector "startMonth"
+-> done: GenericStepDefinitions.WhenISelectOptionFromDropdownByWithSelector("10", "Start Date", "id", "startMonth") (0.1s)
+And I select option "2017" from dropdown "Start Date" by "id" with selector "startYear"
+-> done: GenericStepDefinitions.WhenISelectOptionFromDropdownByWithSelector("2017", "Start Date", "id", "startYear") (0.1s)
+And I select option "Monthly" from dropdown "Payment period" by "id" with selector "paymentMode"
+-> done: GenericStepDefinitions.WhenISelectOptionFromDropdownByWithSelector("Monthly", "Payment period", "id", "paymentMode") (0.1s)
+And I click "Calculate Now button" by "id" with selector "button"
+-> done: GenericStepDefinitions.WhenIClickElementByWithSelector("Calculate Now button", "id", "button") (0.3s)
+Then I should see "Payment Amount - 1st row" with text "$1,248.95" by "cssSelector" with selector "#mortgage > div.calcHolder.flexContainer.mortgage > div.mortageTableWrapper > table > tbody > tr.active > td:nth-child(2)"
+-> done: GenericStepDefinitions.ThenIShouldSeeElementWithTextByWithSelector("Payment Amount - ...", "$1,248.95", "cssSelector", "#mortgage > div.c...") (1.3s)
+And I should see "Term Interest Cost - 1st row" with text "$199,622.19" by "cssSelector" with selector "#mortgage > div.calcHolder.flexContainer.mortgage > div.mortageTableWrapper > table > tbody > tr.active > td:nth-child(4)"
+-> done: GenericStepDefinitions.ThenIShouldSeeElementWithTextByWithSelector("Term Interest Cos...", "$199,622.19", "cssSelector", "#mortgage > div.c...") (0.1s)
+]]></output>
+          </test-case>
+          <test-suite type="ParameterizedMethod" id="0-1007" name="TestScenario" fullname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature.TestScenario" classname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" runstate="Runnable" testcasecount="2" result="Passed" start-time="2017-09-26 21:20:58Z" end-time="2017-09-26 21:21:05Z" duration="7.345260" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <properties>
+              <property name="Description" value="Test Scenario" />
+            </properties>
+            <test-case id="0-1005" name="TestScenario(&quot;how wonderful is the Gherkin language?&quot;,null)" fullname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature.TestScenario(&quot;how wonderful is the Gherkin language?&quot;,null)" methodname="TestScenario" classname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" runstate="Runnable" seed="499358355" result="Passed" start-time="2017-09-26 21:20:58Z" end-time="2017-09-26 21:21:03Z" duration="5.071468" asserts="2">
+              <output><![CDATA[Given I am a user on Google
+-> done: GenericStepDefinitions.GivenIAmAUserOnGoogle() (2.7s)
+When I enter text "how wonderful is the Gherkin language?" in the text field "Search" by "id" with selector "lst-ib"
+-> done: GenericStepDefinitions.WhenIEnterTextInTheTextFieldByWithSelector("how wonderful is ...", "Search", "id", "lst-ib") (0.7s)
+And I hit Enter by "id" with selector "lst-ib"
+-> done: GenericStepDefinitions.WhenIHitEnterByWithSelector("id", "lst-ib") (1.2s)
+Then I should be directed to "Google Search Results" page by "id" with selector "rcnt"
+-> done: GenericStepDefinitions.ThenIShouldBeDirectedToPageByWithSelector("Google Search Res...", "id", "rcnt") (0.2s)
+And I should see value "how wonderful is the Gherkin language?" in "search" field by "id" with selector "lst-ib"
+-> done: GenericStepDefinitions.ThenIShouldSeeValueInFieldByWithSelector("how wonderful is ...", "search", "id", "lst-ib") (0.2s)
+]]></output>
+            </test-case>
+            <test-case id="0-1006" name="TestScenario(&quot;did I do that?&quot;,null)" fullname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature.TestScenario(&quot;did I do that?&quot;,null)" methodname="TestScenario" classname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" runstate="Runnable" seed="1430845469" result="Passed" start-time="2017-09-26 21:21:03Z" end-time="2017-09-26 21:21:05Z" duration="2.272356" asserts="2">
+              <output><![CDATA[Given I am a user on Google
+-> done: GenericStepDefinitions.GivenIAmAUserOnGoogle() (0.6s)
+When I enter text "did I do that?" in the text field "Search" by "id" with selector "lst-ib"
+-> done: GenericStepDefinitions.WhenIEnterTextInTheTextFieldByWithSelector("did I do that?", "Search", "id", "lst-ib") (0.2s)
+And I hit Enter by "id" with selector "lst-ib"
+-> done: GenericStepDefinitions.WhenIHitEnterByWithSelector("id", "lst-ib") (1.2s)
+Then I should be directed to "Google Search Results" page by "id" with selector "rcnt"
+-> done: GenericStepDefinitions.ThenIShouldBeDirectedToPageByWithSelector("Google Search Res...", "id", "rcnt") (0.0s)
+And I should see value "did I do that?" in "search" field by "id" with selector "lst-ib"
+-> done: GenericStepDefinitions.ThenIShouldSeeValueInFieldByWithSelector("did I do that?", "search", "id", "lst-ib") (0.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-case id="0-1008" name="TooltipScenario" fullname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature.TooltipScenario" methodname="TooltipScenario" classname="HrDriveAutomation.Features.SampleFeatureForWebApplicationsFeature" runstate="Runnable" seed="1867577929" result="Passed" start-time="2017-09-26 21:21:05Z" end-time="2017-09-26 21:21:08Z" duration="3.433620" asserts="1">
+            <properties>
+              <property name="Description" value="Tooltip scenario" />
+            </properties>
+            <output><![CDATA[Given I am a user on Mortgage Calculator site
+-> done: GenericStepDefinitions.GivenIAmAUserOnMortgageCalculatorSite() (3.1s)
+When I hover over "icon next to Mortgage Amount" by "cssSelector" with selector "#mortageCalculatorForm > ul.inputFieldList.clearfix.left > li:nth-child(1) > div > a"
+-> done: GenericStepDefinitions.WhenIHoverOverByWithSelector("icon next to Mort...", "cssSelector", "#mortageCalculato...") (0.1s)
+Then I should see "Mortgage Amount info popup" with text "Enter the amount of your new or existing mortgage here." by "cssSelector" with selector "#mortageCalculatorForm > ul.inputFieldList.clearfix.left > li:nth-child(1) > div > a > div"
+-> done: GenericStepDefinitions.ThenIShouldSeeElementWithTextByWithSelector("Mortgage Amount i...", "Enter the amount ...", "cssSelector", "#mortageCalculato...") (0.1s)
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
