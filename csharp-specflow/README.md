@@ -59,21 +59,21 @@ For executing tests:
 			If you want to run 1 or more selected tests, open the Test Explorer view and select the test(s) you want and right-click and choose Run Selected Tests
 			If you want to run all tests in the project, open the Test Explorer view and click Run All
 
-		From the command line, from project directory, i.e. C:\Source\CSharpSpecflow (more typical from build machine than local):
+		From the command line, from project directory, i.e. C:\Source\csharp-specflow (more typical from build machine than local):
 			Open Command Prompt
 			cd packages\NUnit.ConsoleRunner.3.7.0\tools
 			Run all the tests with this command:
-				nunit3-console.exe ..\..\..\CSharpSpecflow\bin\Debug\CSharpSpecflow.dll
+				nunit3-console.exe ..\..\..\csharp-specflow\bin\Debug\CSharpSpecflow.dll
 			To run only tests with a specific tag, use the where parameter (i.e. run only web tests):
-				nunit3-console.exe ..\..\..\CSharpSpecflow\bin\Debug\CSharpSpecflow.dll --where:cat==web
+				nunit3-console.exe ..\..\..\csharp-specflow\bin\Debug\CSharpSpecflow.dll --where:cat==web
 					Note, if you open up web.feature.cs, you'll see a line like this, which is where the 'cat' value comes from: [NUnit.Framework.CategoryAttribute("web")]
 			If you'd like to see which tests would run without actually running them (note you can apply other parameters here to filter list, such as where):
-				nunit3-console.exe ..\..\..\CSharpSpecflow\bin\Debug\CSharpSpecflow.dll --explore
+				nunit3-console.exe ..\..\..\csharp-specflow\bin\Debug\CSharpSpecflow.dll --explore
 			To run 1 or more selected tests (comma-separated) - get the full names from the command above - note, do not provide parameterized values:
-				nunit3-console.exe ..\..\..\CSharpSpecflow\bin\Debug\CSharpSpecflow.dll --test=CSharpSpecflow.Features.SampleFeatureForWebApplicationsFeature.TooltipScenario,CSharpSpecflow.Features.SampleFeatureForWebApplicationsFeature.TestScenario
+				nunit3-console.exe ..\..\..\csharp-specflow\bin\Debug\CSharpSpecflow.dll --test=CSharpSpecflow.Features.SampleFeatureForWebApplicationsFeature.TooltipScenario,CSharpSpecflow.Features.SampleFeatureForWebApplicationsFeature.TestScenario
 			To run 1 or more selected tests repeatably (i.e. smoke tests, functional tests):
 				create a text file with the list of tests to run, one per line, then pass the txt path
-				nunit3-console.exe ..\..\..\CSharpSpecflow\bin\Debug\CSharpSpecflow.dll --testlist=..\..\..\CSharpSpecflow\smoketests.txt
+				nunit3-console.exe ..\..\..\csharp-specflow\bin\Debug\CSharpSpecflow.dll --testlist=..\..\..\CSharpSpecflow\smoketests.txt
 				
 		Command-line arguments (--params=<argumentName1>=<argumentValue1>;<argumentName2>=<argumentValue2>)
 			browser: chrome (default if none is supplied), firefox, ie
