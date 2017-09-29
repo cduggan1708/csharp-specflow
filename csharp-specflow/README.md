@@ -4,10 +4,6 @@ This project is written in C# and utilizes NUnit as the test runner, SpecFlow fo
 
 Open this project in Visual Studio. If you right-click on the project (CSharpSpecflow) and choose Manage NuGet Packages you will see all the dependencies are bundled into this project for you (visible in packages.config).
 
-For running tests (and generating reports):
-	Create a folder called Reports in C:\Source
-	Create a folder called images in C:\Source\Reports
-
 For running web browser tests:
 	You need the browser that you want to test against installed (Chrome by default)
 
