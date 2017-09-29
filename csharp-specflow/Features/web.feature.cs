@@ -85,7 +85,8 @@ namespace CSharpSpecflow.Features
       testRunner.Then("I should be directed to \"Google Search Results\" page by \"id\" with selector \"rcnt\"" +
                     "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 12
-      testRunner.And(string.Format("I should see value \"{0}\" in \"search\" field by \"id\" with selector \"lst-ib\"", searchString), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+      testRunner.And("I should see value \"this will fail\" in \"search\" field by \"id\" with selector \"lst-" +
+                    "ib\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

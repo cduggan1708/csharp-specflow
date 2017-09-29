@@ -9,7 +9,7 @@ Feature: Sample Feature for web applications
 	  When I enter text "<searchString>" in the text field "Search" by "id" with selector "lst-ib"
       And I hit Enter by "id" with selector "lst-ib"
       Then I should be directed to "Google Search Results" page by "id" with selector "rcnt"
-      And I should see value "<searchString>" in "search" field by "id" with selector "lst-ib"
+      And I should see value "this will fail" in "search" field by "id" with selector "lst-ib"
       Examples:
         | searchString                           |
         | how wonderful is the Gherkin language? |
