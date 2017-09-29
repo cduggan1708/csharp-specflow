@@ -8,10 +8,10 @@ namespace CSharpSpecflow.Common
         public static string CreateScreenshot(IWebDriver driver)
         {
             string uuid = Guid.NewGuid().ToString();
-            string fileName = Constants.ReportingImagesFolder + uuid + ".png";
+            string fileName = Constants.ReportingImagesFolder + uuid + ".jpg";
 
             Screenshot screen = ((ITakesScreenshot)driver).GetScreenshot();
-            screen.SaveAsFile(fileName, ScreenshotImageFormat.Png);
+            screen.SaveAsFile(fileName, ScreenshotImageFormat.Jpeg);
 
             return fileName;
         }
