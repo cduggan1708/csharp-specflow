@@ -71,6 +71,15 @@ namespace CSharpSpecflow.StepDefinitions
         {
             ExtentTest scenario = extentTest.CreateNode<Scenario>(ScenarioContext.Current.ScenarioInfo.Title);
 
+            foreach (string tag in FeatureContext.Current.FeatureInfo.Tags)
+            {
+                scenario.AssignCategory(tag);
+            }
+            foreach (string tag in ScenarioContext.Current.ScenarioInfo.Tags)
+            {
+                scenario.AssignCategory(tag);
+            }
+
             ScenarioContext.Current.Set<ExtentTest>(scenario);
         }
 
